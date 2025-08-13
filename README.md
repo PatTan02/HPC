@@ -5,6 +5,7 @@ This is a 4th-year Theoretical Physics course at UCL. I received grades of **95.
 # Summary of each Assignment
 ---
 # Assignment 1 — Matrix multiplication & performance
+**Notebook:** [HPC_Assignment_1.ipynb](HPC_Assignment_1.ipynb)  
 - Wrote a **naïve triple-loop matrix–matrix product** (`slow_matrix_product`) and verified correctness against NumPy.
 - Implemented a **faster version** and then **Numba-JIT compiled** versions to accelerate the core loops.
 - **Benchmarked** runtimes across a range of square sizes with `timeit`, plotting results (log scale).
@@ -12,6 +13,7 @@ This is a 4th-year Theoretical Physics course at UCL. I received grades of **95.
 - Summarised takeaways about algorithmic complexity (still \(O(n^3)\)) vs constant-factor speedups from JIT and layout.
 ---
 # Assignment 2 — Sparse 1D Poisson/heat setup & GPU rod heating
+**Notebook:** [HPC_Assignment_2.ipynb](HPC_Assignment_2.ipynb)  
 **Part 1**
 - Built a routine to **assemble the 1D discrete Poisson operator** and RHS vector as a **sparse matrix** (COO → CSR).
 - Performed **sanity checks** (e.g., `spy` visualisation, structure/indices).
@@ -23,6 +25,7 @@ This is a 4th-year Theoretical Physics course at UCL. I received grades of **95.
 - Compared the GPU evolution with the CPU reference for correctness and reported the crossing time.
 ---
 # Assignment 3 — Your own CSR and a custom block matrix
+**Notebook:** [HPC_Assignment_3.ipynb](HPC_Assignment_3.ipynb)  
 **Part 1: CSRMatrix**
 - Implemented a **`CSRMatrix` class** (subclassing `LinearOperator`) that **converts COO → CSR**, stores `data/indices/indptr`, and implements **`_matvec`** and **`__add__`**.
 - **Tested** your operators against SciPy/dense equivalents for correctness.
@@ -33,6 +36,7 @@ This is a 4th-year Theoretical Physics course at UCL. I received grades of **95.
 - Verified results against a dense construction and **benchmarked** custom vs dense matvec, plotting performance and discussing complexity.
 ---
 # Assignment 4 — 2D heat equation on a square plate (explicit, implicit, GPU)
+**Notebook:** [HPC_Assignment_4.ipynb](HPC_Assignment_4.ipynb)  
 - Set up the **2D heat equation** with Dirichlet boundaries and an initial condition on an \(N\times N\) grid.
 - Implemented three **explicit** schemes:
   - **Non-matrix loop** version (Numba-accelerated),
