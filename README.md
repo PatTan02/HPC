@@ -2,7 +2,7 @@
 
 This is a 4th-year Theoretical Physics course at UCL. I received grades of **95.00%**, **85.00%**, **93.33%**, and **100.00%** for Assignments 1–4 respectively.
 
-### Summary of each Assignment
+# Summary of each Assignment
 ---
 # Assignment 1 — Matrix multiplication & performance
 - Wrote a **naïve triple-loop matrix–matrix product** (`slow_matrix_product`) and verified correctness against NumPy.
