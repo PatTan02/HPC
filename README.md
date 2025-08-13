@@ -1,5 +1,3 @@
-# Techniques of High-Performance Computing 
-
 # Techniques of High-Performance Computing (HPC)
 
 This is a 4th-year Theoretical Physics course at UCL. I received grades of **95.00%**, **85.00%**, **93.33%**, and **100.00%** for Assignments 1–4 respectively.
